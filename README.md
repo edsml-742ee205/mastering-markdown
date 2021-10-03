@@ -8,3 +8,11 @@ _This will also be italic_
 __This will also be bold__
 
 _You **can** combine them
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
